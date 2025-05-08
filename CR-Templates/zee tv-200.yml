@@ -1,6 +1,6 @@
 input:
   protocol: "srt"
-  url: "asdfghjk"
+  url: "123"
   
 
 audio:
@@ -21,4 +21,4 @@ output:
   
   
   
-  path: "zxcvbnm"
+  path: "12345"
