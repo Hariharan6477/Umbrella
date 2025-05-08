@@ -1,0 +1,24 @@
+input:
+  protocol: "srt"
+  url: "srt://:9010?mode&#x3D;listener"
+  
+
+audio:
+  codec: "aac"
+  rate: 44000
+  channels: 2
+  bitrate: "256"
+
+video:
+  codec: "libx265"
+  preset: "ultrafast"
+  tune: "zerolatency"
+  crf: 10
+  bitrate: 1000000
+
+output:
+  format: "hls"
+  hlsTime: 1
+  hlsListSize: 1
+  hlsFlags: "-hls_flags"
+  path: "/hls/90/stream1.m3u8"
