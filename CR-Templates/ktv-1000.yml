@@ -1,0 +1,24 @@
+input:
+  protocol: "srt"
+  url: "srt://:8000?mode&#x3D;caller"
+  
+
+audio:
+  
+  
+  
+  
+
+video:
+  
+  
+  
+  
+  
+
+output:
+  
+  
+  
+  
+  path: "/hls/stream.m3u8"
