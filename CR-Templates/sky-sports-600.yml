@@ -1,6 +1,6 @@
 input:
   protocol: "srt"
-  url: "qwertyuio"
+  url: "https://google.com"
   
 
 audio:
