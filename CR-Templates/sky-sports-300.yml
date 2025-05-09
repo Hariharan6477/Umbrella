@@ -1,0 +1,24 @@
+input:
+  protocol: "srt"
+  url: "srt://9000?mode&#x3D;caller"
+  fflags: "+igndts"
+
+audio:
+  codec: "mp3"
+  rate: 48000
+  channels: 1
+  bitrate: "128k"
+
+video:
+  codec: "vp8"
+  preset: "ultrafast"
+  tune: "zerolatency"
+  crf: 23
+  bitrate: 1000000
+
+output:
+  format: "hls"
+  
+  
+  
+  path: "/hls/stream.m3u8"
