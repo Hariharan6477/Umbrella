@@ -1,0 +1,24 @@
+input:
+  protocol: "srt"
+  url: "srt://9000?mode&#x3D;caller"
+  fflags: "+igndts"
+
+audio:
+  codec: "libopus"
+  rate: 48000
+  channels: 2
+  bitrate: "128k"
+
+video:
+  codec: "copy"
+  preset: "ultrafast"
+  tune: "zerolatency"
+  
+  
+
+output:
+  
+  
+  
+  
+  path: "/hls/stream.m3u8"
